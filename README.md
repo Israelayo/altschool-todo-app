@@ -4,8 +4,8 @@
 
 This project is a **comprehensive Todo application** built for the AltSchool of Engineering Second Semester Frontend Exam. It demonstrates robust API integration, modern React patterns, accessibility best practices, and a strong focus on professional UI/UX.
 
-**Live Demo:** []  
-**Repository:** []
+**Live Demo:** [https://altschool-todo-app.netlify.app/]  
+**Repository:** [https://github.com/Israelayo/altschool-todo-app]
 
 ---
 
@@ -154,7 +154,7 @@ altschool-todo-app/
 - **Repository:** Private on GitHub, with proper `.gitignore` and `package.json`
 - **Commit Messages:** Clear and descriptive
 - **Collaborator:** @Oluwasetemi added
-- **Deployment:** Hosted on [Netlify] – see [Live Demo](#)
+- **Deployment:** Hosted on [Netlify] – see [Live Demo](https://altschool-todo-app.netlify.app/)
 
 ---
 
