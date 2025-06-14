@@ -1,0 +1,34 @@
+.todo-detail {
+  max-width: 500px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.todo-detail__title {
+    font-size: 1.8rem;
+    color: var(--color-accent, #0d6efd);
+    margin-bottom: 0.5em;
+}
+
+.todo-detail__status--completed {
+  color: green;
+  font-weight: bold;
+}
+
+.todo-detail__status--not-completed {
+  color: #b85c00;
+  font-weight: bold;
+}
+
+.todo-detail__back-link {
+  color: var(--color-accent, #0d6efd);
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.todo-detail__notfound {
+  padding: 2em;
+  text-align: center;
+}
