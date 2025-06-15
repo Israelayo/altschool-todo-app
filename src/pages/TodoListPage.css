@@ -106,6 +106,7 @@
   border: 1px solid #d0d0d0;
   margin-bottom: 0.7em;
   font-size: 1em;
+  outline: none;
 }
 .todo-form textarea {
   min-height: 70px;
@@ -149,6 +150,7 @@
   border-radius: 2em;
   font-size: 1em;
   min-width: 220px;
+  outline: none;
 }
 
 .todo-list__status-filters {

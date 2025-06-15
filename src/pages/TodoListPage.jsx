@@ -156,8 +156,8 @@ function TodoListPage() {
       if (isUserTodo({ id })) {
         setAddedTodos(addedTodos.filter(todo => todo.id !== id));
       } else {
-        // API todo: mark as deleted
         deleteApiTodo(id);
+        window.location.reload();
       }
     }
   }
@@ -216,7 +216,7 @@ function TodoListPage() {
         <form onSubmit={handleFormSubmit} className="todo-form">
           <label>
             Title:
-            <input
+            <input style={{outline: "none"}}
               name="title"
               value={form.title}
               onChange={handleFormChange}
